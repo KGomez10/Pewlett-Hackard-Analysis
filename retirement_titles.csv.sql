@@ -1,13 +1,3 @@
--- Use Dictinct with Orderby to remove duplicate rows
-SELECT DISTINCT ON (______) _____,
-______,
-______,
-______
-
-INTO nameyourtable
-FROM _______
-WHERE _______
-ORDER BY _____, _____ DESC;
 CREATE TABLE retirement_titles(
      emp_no INT NOT NULL,
      first_name VARCHAR NOT NULL,
